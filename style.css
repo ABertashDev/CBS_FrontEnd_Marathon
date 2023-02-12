@@ -1,38 +1,132 @@
-*{
+/* COMMON STYLES START */
+
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #222;
 }
 
-body{
-    width: 80%;
-    background-color: antiquewhite;
-    padding-left: 10%;
+body {
+    font-family: 'Heebo', sans-serif;
+    color: #21243D;
 }
 
-.menu ul li{
+.container {
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* COMMON STYLES END */
+
+/* HEADER STYLES START */
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1150px;
+    margin: 0 auto 100px;
+    padding: 0 45px;
+}
+
+.menu a {
+    padding: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+.menu a:hover,
+.menu a.current-page {
+    color: #FF6464;
+}
+
+.about-user {
+    display: flex;
+    justify-content: space-between;
+    border-top: 34px solid #C4C4C4;
+}
+
+.about-user div {
+    width: 500px;
+}
+
+.about-user img {
+    width: 243px;
+    height: 243px;
+}
+
+.about-user h1 {
+    margin-top: 20px;
+}
+
+.about-user p {
+    margin-top: 35px;
+}
+
+.btn {
+    background: #FF6464;
+    border-radius: 2px;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 12px 20px;
+    margin-top: 35px;
+}
+
+/* HEADER STYLES END */
+
+/* BLOG STYLES START */
+
+.blog {
+    margin-top: 25px;
+}
+
+.blog article {
+    padding: 30px 0;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.blog article h2 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+    margin: 0 0 15px;
+}
+
+.blog article p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 15px 0 0;
+}
+
+.blog article span {
     display: inline-block;
-    width: 80px;
-    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+}
+.blog article .date {
+    width: 140px;
+    border-right: 1px solid #000000;
 }
 
-h1{
-    text-align: center;
+.blog article .theme {
+    margin-left: 20px;
+    max-width: 380px;
+    color: #8695A4;
 }
 
-p{
-    text-align: justify;
-    margin-top: 30px;
-}
-
-div{
-    margin-top: 30px;
-}
-
-div article {
-    padding-left: 40px;
-    text-align: justify;
-}
-
-
+/* BLOG STYLES END */
