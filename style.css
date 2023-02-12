@@ -10,6 +10,11 @@ body {
     color: #21243D;
 }
 
+a {
+    text-decoration: none;
+    color: #21243D;
+}
+
 .container {
     max-width: 860px;
     margin: 0 auto;
@@ -234,15 +239,15 @@ p {
         height: auto;
         margin: 0 0 15px;
     }
-    
+
     .work .badge {
         font-size: 16px;
     }
-    
+
     .work .topic {
         font-size: 16px;
     }
-    
+
     .work p {
         margin-top: 20px;
     }
@@ -277,12 +282,12 @@ p {
 
 /* MEDIA WORKS STYLES START */
 @media (max-width: 768px) {
-  
+
     .works .block-head {
         display: block;
         width: 345px;
         margin: 0 auto;
-        font-size: 30px; 
+        font-size: 30px;
     }
 
     .works .featured-works {
@@ -300,7 +305,7 @@ p {
     .works .work img {
         margin-bottom: 20px;
     }
-     
+
     .works .work p {
         margin-top: 20px;
     }
@@ -402,3 +407,90 @@ p {
 
 }
 /* BLOG STYLES END */
+
+
+/* ARTICLE-PAGE STYLES START */
+.article-page .container {
+    max-width: 680px;
+}
+
+.article-page h1 {
+    font-size: 34px;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.article-b-t {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.article-badge {
+    background-color: #FF7C7C;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 16px;
+    padding: 0 10px;
+    margin-right: 17px;
+    max-height: 27px;
+}
+
+.article-topic {
+    font-size: 20px;
+}
+
+.article-page img {
+    width: 100%;
+    margin-bottom: 27px;
+}
+
+.article-page h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.article-page h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.article-page p {
+    margin-bottom: 20px;
+}
+
+.article-page ul {
+    margin-bottom: 25px;
+}
+
+.article-page ul li {
+    list-style: square;
+    margin-left: 40px;
+    font-style: italic;
+}
+
+/* MEDIA ARTICLE-PAGE STYLES START */
+@media (max-width: 768px) {
+    
+    .article-page h1 {
+        font-size: 30px;
+    }
+
+    .article-topic {
+        font-size: 18px;
+    }
+
+    .article-page h2 {
+        font-size: 26px;
+        text-align: left;
+    }
+
+    .article-page h3 {
+        font-size: 20px;
+    }
+    /* MEDIA ARTICLE-PAGE STYLES END */
+
+}
+/* ARTICLE-PAGE STYLES END */

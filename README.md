@@ -12,3 +12,4 @@ Developing of a portfolio site using the Figma template
 - Day 2. General styles and creation of the main page header
 - Day 3. Creating an adaptive version of the main page
 - Day 4. Creation of the "Featured works" section
+- Day 5. Creation of a specific article page
