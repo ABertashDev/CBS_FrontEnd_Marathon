@@ -85,6 +85,67 @@ p {
     margin-top: 35px;
 }
 
+.burger {
+    width: 30px;
+    height: 20px;
+    margin-left: auto;
+    display: none;
+    border: none;
+    background-image: url("images/menu.svg");
+    background-color: transparent;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+    .menu {
+        padding-top: 20px;
+        padding-bottom: 35px;
+        margin: 0 auto;
+    }
+
+    .menu a {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .about-user {
+        flex-direction: column;
+        align-items: center;
+        border: none;
+        margin-top: 10px;
+    }
+
+    .about-user div {
+        order: 1;
+        text-align: center;
+        width: auto;
+    }
+
+    .about-user img {
+        width: 180px;
+        height: 180px;
+        margin-bottom: 50px;
+        box-shadow: -3px 10px 0 #EDF7FA;
+        border-radius: 50%;
+    }
+
+    h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+}
+
+
 /* HEADER STYLES END */
 
 /* BLOG STYLES START */
@@ -118,6 +179,7 @@ p {
     font-size: 20px;
     line-height: 29px;
 }
+
 .blog article .date {
     width: 140px;
     border-right: 1px solid #000000;
@@ -127,6 +189,52 @@ p {
     margin-left: 20px;
     max-width: 380px;
     color: #8695A4;
+}
+
+@media (max-width: 768px) {
+
+    .container {
+        margin: 0 20px;
+    }
+
+    .block-head {
+        font-size: 30px;
+        line-height: 60px;
+    }
+
+    .blog {
+        margin-top: 0;
+    }
+
+    .blog article {
+        padding: 20px 0 25px;
+    }
+
+    .blog article h2 {
+        font-size: 26px;
+        line-height: 38px;
+        margin-bottom: 5px;
+    }
+
+    .blog article p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 20px;
+    }
+
+    .blog article span {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .blog article .date {
+        width: 105px;
+    }
+
+    .blog article .theme {
+        margin-left: 15px;
+    }
+
 }
 
 /* BLOG STYLES END */

@@ -9,4 +9,5 @@ Developing of a portfolio site using the Figma template
 
 ## Program
 - Day 1. Layout and tools
-- Day 2. General styles and creation header of the main page
+- Day 2. General styles and creation of the main page header
+- Day 3. Creating an adaptive version of the main page
