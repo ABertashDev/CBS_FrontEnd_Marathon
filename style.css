@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #222;
+}
+
+body{
+    width: 80%;
+    background-color: antiquewhite;
+    padding-left: 10%;
+}
+
+.menu ul li{
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    margin-top: 30px;
+}
+
+div{
+    margin-top: 30px;
+}
+
+div article {
+    padding-left: 40px;
+    text-align: justify;
+}
+
+
