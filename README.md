@@ -14,3 +14,4 @@ Developing of a portfolio site using the Figma template
 - Day 4. Creation of the "Featured works" section
 - Day 5. Creation of a specific article page
 - Day 6. Creation of the footer of the site and linking to other pages
+- Day 7. Creating post sections

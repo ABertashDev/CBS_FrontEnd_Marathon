@@ -32,6 +32,13 @@ h2 {
     margin-top: 50px;
 }
 
+h4 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    margin: 0;
+}
+
 p {
     font-weight: 400;
     font-size: 16px;
@@ -157,6 +164,84 @@ p {
 /* HEADER STYLES END */
 
 
+/* SECTION POSTS STYLES START */
+.section-posts {
+    background-color: #EDF7FA;  
+    padding-bottom: 15px;
+    padding-top: 10px; 
+    margin-top: 70px; 
+}
+
+.section-posts h2 {
+    margin: 15px 0;
+}
+
+.block-posts {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.block-posts .post {
+    max-width: 420px;
+    border-radius: 4px; 
+    background: #fff; 
+    padding: 25px;
+    margin-bottom: 15px;
+}
+
+.block-posts h4 {
+    margin-bottom: 30px;
+}
+
+.block-posts span {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.block-posts .date {
+    width: 130px;
+    border-right: 1px solid #000000;
+}
+
+.block-posts .theme {
+    margin-left: 25px;
+    max-width: 380px;
+}
+
+.block-posts p {
+    margin-top: 20px;
+}
+
+
+/* MEDIA SECTION POSTS STYLES START */
+@media (max-width: 768px) {
+
+    .section-posts {
+        margin-top: 60px; 
+    }
+    
+    .block-posts h4 {
+        margin-bottom: 20px;
+        font-size: 22px;
+        line-height: 30px;  
+    }
+    
+    .block-posts span {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .block-posts .date {
+        width: 115px;
+    }
+    /* MEDIA SECTION POSTS STYLES END */
+        
+}
+/* SECTION POSTS STYLES END */
+
 
 /* FEATURED WORKS STYLES START (MAIN PAGE)*/
 .featured-works {
@@ -206,6 +291,7 @@ p {
     font-size: 16px;
     line-height: 24px;
 }
+
 
 /* MEDIA FEATURED WORKS STYLES START (MAIN PAGE)*/
 @media (max-width: 768px) {
@@ -279,6 +365,7 @@ p {
 .works .work p {
     margin-top: 20px;
 }
+
 
 /* MEDIA WORKS STYLES START */
 @media (max-width: 768px) {
@@ -357,6 +444,7 @@ p {
     max-width: 380px;
     color: #8695A4;
 }
+
 
 /* MEDIA BLOG STYLES START */
 @media (max-width: 768px) {
@@ -471,6 +559,7 @@ p {
     font-style: italic;
 }
 
+
 /* MEDIA ARTICLE-PAGE STYLES START */
 @media (max-width: 768px) {
     
@@ -496,6 +585,7 @@ p {
 /* ARTICLE-PAGE STYLES END */
 
 
+/* FOOTER STYLES START */
 footer {
     text-align: center;
     padding: 50px 0;
@@ -538,3 +628,43 @@ footer p {
 .in {
     background-image: url("images/social_icons/Linkedin.svg");
 }
+/* FOOTER STYLES END */
+
+
+/* BLOG PAGE DETAIL STYLES START */
+.article-page span {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.article-page .date {
+    width: 140px;
+    border-right: 1px solid #000000;
+}
+
+.article-page .theme {
+    margin-left: 20px;
+    max-width: 380px;
+    color: #8695A4;
+}
+
+/* MEDIA BLOG PAGE DETAIL STYLES START */
+@media (max-width: 768px) {
+    .article-page span {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .article-page .date {
+        width: 105px;
+    }
+
+    .article-page .theme {
+        margin-left: 15px;
+    }
+    /* MEDIA BLOG PAGE DETAIL STYLES END */
+
+}
+/* BLOG PAGE DETAIL STYLES END */
